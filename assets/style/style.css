@@ -1,0 +1,151 @@
+@import "font-family: 'Libre Franklin', 'Tenor Sans' sans-serif;";
+@import "font-family: 'Tenor Sans', 'Tenor Sans' sans-serif;";
+@import "font-family: 'Source Serif Pro', 'Tenor Sans' sans-serif;";
+
+
+
+
+:root {
+ --dark: rgb(0, 0, 0);
+ --light: rgb(233, 231, 231);
+}
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    border-radius: 0px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 90px;
+    border-bottom: 1px solid #999999;
+}
+/* BASE CONFIG */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+a {
+ color: inherit;
+ text-decoration: none;
+}
+button {
+ background: none;
+ border: none;
+}
+/* BASE CONFIG */
+
+.container {
+ max-width: 1441px;
+ padding: 0;
+ margin: 0 auto;
+}
+/* /* nav  */
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+.align-center {
+    align-items: center;
+}
+.header-right a {
+    width: 25px;
+    margin-right: 100px;
+}
+.header-left .logo {
+    width: 130px;
+    margin-left: 120px;
+}
+.header-right a {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    color: #000000;
+}
+/* main */
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 10px;
+}
+.banner {
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+
+
+}
+.banner .banner-1 {
+    margin-top: 59px;
+    margin-left: 137px;
+    width: 721px;
+}
+.banner .banner-2 {
+    width: 100%;
+    margin-top: 59px;
+    margin-right: 51px;
+    padding-top: 0px;
+}
+.banner .banner-2 .text-4 {
+    position: relative;
+    bottom: -20px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+color: #000000;
+}
+.banner .banner-2 .text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #999999;
+}
+.banner .banner-2 .text-2 {
+    position: relative;
+    bottom: -47px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+color: #666666;
+}
+.banner .banner-2 .text-3 {
+    position: relative;
+    bottom: -80px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
